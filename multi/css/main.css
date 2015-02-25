@@ -1,0 +1,26 @@
+.wrapper{
+    margin-top:50px;
+}
+
+.buttons, 
+#progressBars,
+#msg{
+    margin-top: 10px;
+}
+
+.label{
+    display: inline-block !important;
+    margin-bottom: 5px !important;
+}
+
+.buttons{
+    text-align: center;
+}
+
+.progressHidden{
+    margin: 0 5px;
+}
+
+h3{
+    text-align: center;
+}

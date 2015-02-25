@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Webworker</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="images/favicon.ico">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+
+        <script src="//code.jquery.com/jquery-1.11.0.min.js" type="text/javascript"></script>
+        <script src="js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="js/stopwatch.js" type="text/javascript"></script>
+        <script src="js/main.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <div class="wrapper">
+            <h3>Aufsummieren einer 2er Potenz</h3>
+            <div class="container">
+                <div class="col-lg-6">
+                    <div class="input-group">
+                        <span class="input-group-addon">2 ^</span>
+                        <input id="potenz" type="text" class="form-control" placeholder="Potenz" autofocus>
+                    </div>                    
+                </div>
+                <div class="col-lg-6">
+                    <div class="input-group">
+                        <span class="input-group-addon">Cores:</span>
+                        <input id="cores" type="text" class="form-control" placeholder="Number of Processor cores" autofocus>
+                    </div>                    
+                </div>
+                <div class="col-lg-12 buttons">
+                    <a href="#" class="btn btn-primary" role="button" onclick="startWorker()">Start Worker</a>
+                    <a href="#" class="btn btn-primary" role="button" onclick="stopWorker()">Terminate Worker</a>
+                    <a href="#" class="btn btn-primary" role="button" onclick="toggleProgressBars()">Toggle progress bars</a>       
+                    <a href="#" class="btn btn-primary" role="button" onclick="clearMsgs()">Clear Message</a>                
+                </div>
+                <div id="progressBars" class="col-lg-12"></div>
+                <div id="msg" class="col-lg-12"></div>
+            </div>
+        </div>
+    </body>
+</html>
