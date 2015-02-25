@@ -1,4 +1,6 @@
 <h1>sWebworker</h1>
-This project is used to demonstrate the new Webworker Technology.
+<p>
+    This project is used to demonstrate the new Webworker Technology.
+</p>
 
-If you have any questions, just write me a message.
+<b>If you have any questions, feel free to write a message to me.</b>
